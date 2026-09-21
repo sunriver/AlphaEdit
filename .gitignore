@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# OS / editor
+.DS_Store
+.vscode/
+
+# LaTeX build artifacts
+*.aux
+*.log
+*.out
+*.blg
+*.bbl
+*.synctex.gz
+
+# SafeNull: paper artifacts & experiment outputs (local only)
+SafeNull/paper/
+SafeNull/results/
+
+# Local experiment caches
+null_space_project.pt
